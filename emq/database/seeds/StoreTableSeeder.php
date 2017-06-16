@@ -1,0 +1,162 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class StoreTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('store')->delete();
+        DB::table('store')->insert(array([
+        	'name' => 'EMQ',
+        	'address' => '2004 El Camino Real',
+        	'address2' => '',
+        	'city' => 'Santa Clara',
+        	'state' => 'CA',
+        	'zip' => 95050,
+        	'country' => 'United States',
+        	'phone' => '(408) 555-5555',
+        	'salesTax' => 8.75,
+            'lat' => '37.349815',
+            'lng' => '-121.960438'
+        	],
+            ['name' => 'EMQ',
+            'address' => '2161 Monterey Rd',
+            'address2' => '',
+            'city' => 'San Jose',
+            'state' => 'CA',
+            'zip' => 95125,
+            'country' => 'United States',
+            'phone' => '(408) 666-6666',
+            'salesTax' => 9.00,
+            'lat' => '37.305341',
+            'lng' => '-121.863068'
+            ],
+            ['name' => 'EMQ',
+            'address' => '133 Serramonte Center',
+            'address2' => '',
+            'city' => 'Daly City',
+            'state' => 'CA',
+            'zip' => 94015,
+            'country' => 'United States',
+            'phone' => '(408) 777-7777',
+            'salesTax' => 9.00,
+            'lat' => '37.670500',
+            'lng' => '-122.471026'
+            ],
+            ['name' => 'EMQ',
+            'address' => '2485 El Camino Real',
+            'address2' => '',
+            'city' => 'Redwood City',
+            'state' => 'CA',
+            'zip' => 94063,
+            'country' => 'United States',
+            'phone' => '(408) 888-8888',
+            'salesTax' => 9.00,
+            'lat' => '37.475663',
+            'lng' => '-122.217060'
+            ],
+            ['name' => 'EMQ',
+            'address' => '3747 Grand Ave',
+            'address2' => '',
+            'city' => 'Oakland',
+            'state' => 'CA',
+            'zip' => 94610,
+            'country' => 'United States',
+            'phone' => '(408) 111-1111',
+            'salesTax' => 9.50,
+            'lat' => '37.817325',
+            'lng' => '-122.245677'
+            ],
+            ['name' => 'EMQ',
+            'address' => '43950 Pacific Commons Blvd',
+            'address2' => '',
+            'city' => 'Fremont',
+            'state' => 'CA',
+            'zip' => 94538,
+            'country' => 'United States',
+            'phone' => '(408) 222-2222',
+            'salesTax' => 9.50,
+            'lat' => '37.501622',
+            'lng' => '-121.968116'
+            ],
+            ['name' => 'EMQ',
+            'address' => '2111 Mission St',
+            'address2' => '',
+            'city' => 'Santa Cruz',
+            'state' => 'CA',
+            'zip' => 95060,
+            'country' => 'United States',
+            'phone' => '(408) 333-3333',
+            'salesTax' => 8.25,
+            'lat' => '36.961314',
+            'lng' => '-122.045105'
+            ],
+            ['name' => 'EMQ',
+            'address' => '1415 Main St',
+            'address2' => '',
+            'city' => 'Watsonville',
+            'state' => 'CA',
+            'zip' => 95076,
+            'country' => 'United States',
+            'phone' => '(408) 444-4444',
+            'salesTax' => 8.25,
+            'lat' => '36.915174',
+            'lng' => '-121.773818'
+            ],
+            ['name' => 'EMQ',
+            'address' => '2600 Willow Pass Rd',
+            'address2' => '',
+            'city' => 'Concord',
+            'state' => 'CA',
+            'zip' => 94520,
+            'country' => 'United States',
+            'phone' => '(408) 111-2222',
+            'salesTax' => 9.00,
+            'lat' => '37.978267',
+            'lng' => '-122.028256'
+            ],
+            ['name' => 'EMQ',
+            'address' => '1871 N Main St',
+            'address2' => '',
+            'city' => 'Walnut Creek',
+            'state' => 'CA',
+            'zip' => 94596,
+            'country' => 'United States',
+            'phone' => '(408) 111-3333',
+            'salesTax' => 8.50,
+            'lat' => '37.904429',
+            'lng' => '-122.064699'
+            ],
+            ['name' => 'EMQ',
+            'address' => '789 Mission St',
+            'address2' => '',
+            'city' => 'San Francisco',
+            'state' => 'CA',
+            'zip' => 94103,
+            'country' => 'United States',
+            'phone' => '(408) 111-4444',
+            'salesTax' => 8.75,
+            'lat' => '37.784736',
+            'lng' => '-122.403691'
+            ],
+            ['name' => 'EMQ',
+            'address' => '4950 Mission St',
+            'address2' => '',
+            'city' => 'San Francisco',
+            'state' => 'CA',
+            'zip' => 94112,
+            'country' => 'United States',
+            'phone' => '(408) 111-5555',
+            'salesTax' => 8.75,
+            'lat' => '37.719935',
+            'lng' => '-122.438977'
+            ]
+        ));
+    }
+}
